@@ -4,10 +4,10 @@
 /**
  * The URL for your Google Apps Script webhook that logs data to your Google Sheet.
  */
-export const WEBHOOK_URL = 'https://hook.us1.make.com/fzpw6926r8glk8ij5n3bylypfz2x1uod';
+export const WEBHOOK_URL = 'YOUR_GOOGLE_SHEET_WEBHOOK_URL_HERE';
 
 /**
  * The URL for your backend service (e.g., a Cloud Function) that securely
  * calls the Gemini API for analysis. This is crucial for keeping your API key private.
  */
-export const ANALYSIS_WEBHOOK_URL = 'https://hook.us1.make.com/1cw4bsffxzghvzaowseafw24hrjvr6tj';
+export const ANALYSIS_WEBHOOK_URL = 'YOUR_GEMINI_ANALYSIS_WEBHOOK_URL_HERE';
