@@ -1,4 +1,4 @@
-const CACHE_NAME = 'food-logger-cache-v1';
+const CACHE_NAME = 'food-logger-cache-v2';
 const urlsToCache = [
   './',
   './index.html',
