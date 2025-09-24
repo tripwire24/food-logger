@@ -1,0 +1,7 @@
+{
+  "name": "PWA Food Logger",
+  "description": "A fast, camera-ready web app to log your meals. Snap a picture, add optional notes, and instantly send it to your backend for nutritional analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
