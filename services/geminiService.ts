@@ -1,8 +1,12 @@
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 import { NutritionInfo, MealType } from '../types';
 
-// This assumes process.env.API_KEY is available in the execution environment.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// --- IMPORTANT ---
+// The API key is placed directly here for this client-side application to function.
+// For security, you MUST restrict this key in your Google Cloud Console to only
+// allow requests from your website's domain (e.g., your GitHub Pages URL).
+const API_KEY = 'AIzaSyB7YL5R0lH5qpXZx-KzQGL8Jfb00eP7HBM';
+const ai = new GoogleGenAI({ apiKey: API_KEY });
 
 const responseSchema = {
   type: Type.OBJECT,
